@@ -3,15 +3,16 @@
 
 /**
  * main - prints the name of the program
- * @argc: number of arguments
- * @argv: array of arguments
+ * @argc: argument count
+ * @argv: arguments vector
  *
  * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
-	{
-		(void) argc;
-		printf("%s\n", argv[0]);
-		return (0);
-	}
+{
+	(void) argc;
+	printf("%s\n", argv[0]);
+
+	return (0);
+}
